@@ -67,10 +67,3 @@ def create_pdf_grid(
     output_pdf.save(output_pdf_path)
     output_pdf.close()
     input_pdf.close()
-
-# create_pdf_grid(
-#     "/Users/ronikbhaskar/Documents/Projects/14-page-zine/example-14-page.pdf",
-#     "/Users/ronikbhaskar/Documents/Projects/14-page-zine/example-zine-with-cuts.pdf",
-#     page_map=[12, 11, 10, 9, 13, None, 7, 8, 0, None, 6, 5, 1, 2, 3, 4],
-#     rotate_flags=([True] * 4 + [False] * 4) * 2
-# )
